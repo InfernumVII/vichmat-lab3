@@ -16,8 +16,6 @@ class IntegrationApp:
 
     def run(self):
         print("Численное интегрирование")
-        print("Доступны схемы: прямоугольники, трапеции, Симпсон")
-        print("Критерий остановки: оценка по правилу Рунге")
 
         integrand = self._choose_function()
         method = ConsoleIO.ask_method()
